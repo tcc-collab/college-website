@@ -1,0 +1,476 @@
+@charset "utf-8";
+/* CSS Document */
+
+#home
+{
+
+}
+.navbar-default
+{
+	background:#B30D15;
+	color:#fff;
+	padding-top:4px;
+}
+.navbar-default .btn-default
+{
+	background:#B30D15;
+	margin-top:10px;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	color:#FDAF17;
+}
+.top-nav-collapse
+{
+	padding-top:1px;
+}
+.navbar-default .navbar-nav > li > a
+{
+	color:#FDAF17;
+	font-size:12px;
+	font-weight:bold;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #555;
+background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover
+{
+	color:#fff;
+	background:#FEB115;
+}
+#home .btn-default:hover
+{
+	color:#fff;
+	background:#FEB115;
+}
+#Offers
+{
+	min-height:600px;
+	margin-top:40px;
+	overflow:hidden;
+}
+.bg2
+{
+	background:#fff;
+	color:#000;
+	overflow:hidden;
+
+}
+#Offers h2, #courses h2, #Trinitians h2, #events h2, #news h2
+{
+	font-weight:bold;
+	position:relative;
+	padding-bottom:15px;
+	color:#B30D15;
+}
+#Offers h2:after,#courses h2:after, #Trinitians h2:after, #events h2:after, #news h2:after
+{
+	content:" ";
+	position:absolute;
+	height:3px;
+	width:250px;
+	background:#FEAF18;
+	bottom:2px;
+	left:350px;
+}
+.bg2 img
+{
+	transition:0.4s;
+	width:100%;
+	 border: 1px solid #f2f2f2;
+	 height:200px;
+	 overflow:hidden
+}
+.bg2 img:hover
+{
+transform: scale(1.2) rotate(5deg);
+	 max-width: 100%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+.photo
+{
+	overflow:hidden;
+}
+img {
+    height: auto;
+    max-width: 100%;
+
+}
+#offers .photo
+{
+	overflow:hidden;
+	position:relative;
+}
+.bg3
+{
+	margin-top:50px;
+	background:url(../images/infrastructure/TRINITY_663B83AFIMG_7955__sci__XII__C2_copy.jpg);
+	background-size:auto;
+	overflow:hidden;
+
+}
+.bg3-inner
+{
+	background:rgba(0,0,0,0.5);
+	height:600px;
+	width:100%;
+}
+.bg5
+{
+	color:#FEAD16;
+	margin-top:80px;
+}
+.counter
+{
+    background-color: #eaecf0;
+    text-align: center;
+}
+.employees,.customer,.design,.order
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.counter-count
+{
+    font-size: 18px;
+    background-color: #B30D15;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 24px;
+    color: #FEAD16;
+    line-height: 34px;
+}
+#courses
+{
+	margin-top:50px;
+
+}
+.bg6
+{
+	background:#fff;;
+	color:#FEAD16;
+	padding-bottom:20px;
+	min-height:500px;
+	margin-bottom:20px;
+}
+.one
+{
+	position:relative;
+}
+.one:hover .title {
+    display: block;
+}
+.title {
+    background:rgba(153,0,0,0.5);
+    position: absolute;
+    color: #fff;
+    bottom: 15px;
+    left: 0;
+    display: none;
+	font-size:16px;
+}
+.bg7
+{
+	height:350px;
+	background:url(../images/infrastructure/TRINITY_4E973285IMG_4709.JPG);
+	background-size:contain;
+}
+.bg7-inner
+{
+	background:rgba(255,0,0,0.7);
+	height:350px;
+	padding:30px;
+	color:#fff;
+}
+.bg7 .btn-default
+{
+	background:#fff;
+	 border-radius:0;
+	  color:000;
+
+		    border: 2px solid transparent;
+			padding:10px;
+			margin:auto;
+}
+
+.bg7 .btn-default:hover
+{
+	border-color: #FFF;
+background: transparent ;
+color: #FFF;
+}
+#Trinitians
+{
+	min-height:500px;
+	margin-top:50px;
+	color:#970707;
+
+}
+.bg9
+{
+	margin-top:40px;
+}
+.two
+{
+	position:relative;
+	transition: all 0.4s ease 0s;
+}
+.info
+{
+	background:rgba(255,204,0,0.5);
+	width:100%;
+	position:absolute;
+	display:none;
+	height:255px;
+	top:0;
+	left:0;
+	color:#fff;
+
+}
+.two img
+{
+	height:255px;
+}
+.two:hover .info
+{
+	display:block;
+	transform: scale(1);
+}
+.bg10
+{
+	background:url(../images/infrastructure/5b8536893f4d642704a25e43_vegan-plantbased-britishlibrary.jpg);
+	height:300px;
+	margin-top:60px;
+	width:100%;
+	background-size:cover;
+
+}
+.bg11
+{
+
+	height:220px;
+	position:relative;
+	background:#FFF;
+	margin-top:60px;
+	margin-right:10px;
+	padding:5px;
+}
+.three
+{
+
+}
+
+.three img
+{
+
+	position:absolute;
+	height:60px;
+	width:60px;
+	background-size:cover;
+	top:-20px;
+	left:40%;
+	border-radius:50%;
+	border:thick solid #CCC;
+	overflow:hidden;
+	transition:all 0.4s;
+}
+.bg11:hover img
+{
+	transform: rotate(360deg);
+	border:thick solid #B30D15;
+}
+#events
+{
+	margin-top:70px;
+	color: #000;
+}
+.bg12 .btn-default:hover
+{
+	color:#FFF;
+	background: #B30D15;
+}
+#events .four
+{
+	position:relative;
+}
+#events .cover
+{
+	position:absolute;
+	height:200px;
+	background:rgba(0,0,0,0.5);
+	top:0;
+	left:0;
+	display:none;
+	width:100%;
+}
+#events .shadow:hover .cover
+{
+	display:block;
+}
+#events .shadow:hover
+{
+	box-shadow:2px 2px 30px;
+}
+.shadow
+{
+	padding:4px;
+	overflow:hidden;
+}
+.bg13
+{
+
+	background:url(../images/infrastructure/cta-bg.jpg);
+	background-size:cover;
+	margin-top:30px;
+	margin-bottom:30px;
+
+	}
+.bg13-inner
+{
+	background:rgba(153,0,0,0.8);
+	height:300px;
+	padding-top:40px;
+}
+
+.col_half { width: 49%; }
+.col_third { width: 32%; }
+.col_fourth { width: 23.5%; }
+.col_fifth { width: 18.4%; }
+.col_sixth { width: 15%; }
+.col_three_fourth { width: 74.5%;}
+.col_twothird{ width: 66%;}
+.col_half,
+.col_third,
+.col_twothird,
+.col_fourth,
+.col_three_fourth,
+.col_fifth{
+	position: relative;
+	display:inline;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+.end { margin-right: 0 !important; }
+/* Column Grids End */
+
+.wrapper { width: 980px; margin: 30px auto; position: relative;}
+.counter { background-color: #FFAE17; padding: 20px 0; border-radius: 5px; color:#fff;}
+.count-title { font-size: 40px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.count-text { font-size: 13px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.fa-2x { margin: 0 auto; float: none; display: table; color: #fff; }
+
+#news
+{
+	margin-top:30px;
+}
+.bg14
+{
+
+}
+.five
+{
+	margin-top:40px;
+	position:relative;
+	box-shadow:1px 1px 10px ;
+	padding:2px;
+	overflow:hidden;
+	transition:ease-in-out 0.7s;
+}
+.five h4
+{
+	color:#B11017;
+}
+.news
+{
+	background:rgba(0,0,0,0.5);
+	width:100%;
+	position:absolute;
+	display:none;
+	height:200px;
+	top:0;
+	left:0;
+	color:#fff;
+}
+.five:hover .news
+{
+	display:block;
+}
+.six
+{
+	overflow:hidden;
+	position:relative;
+}
+.seven
+{
+	height:70px;
+	width:70px;
+	border-radius:50%;
+	position:absolute;
+	background:#B11017;
+	color:#fff;
+	top:2px;
+	left:5px;
+	display:none;
+	padding-left:20px;
+
+}
+.five:hover .seven
+{
+	display:block;
+}
+.five:hover img
+{
+	transform: scale(1.2) rotate(5deg);
+}
+.bg16 .btn-default
+{
+	background:#FFAF18;
+	color:#fff;
+	border-radius:0;
+	transition:all 0.6s;
+}
+.bg16 .btn-default:hover
+{
+	background:#B11017;
+	padding:2px;
+}
+
+#contact
+{
+	background:url(../images/infrastructure/kathmandu-day-tour-banner.jpg);
+	margin-top:30px;
+	background-size:cover;
+	margin-bottom:20px;
+}
+.bg15
+{
+	height:300px;
+	background:rgba(255,204,0,0.5);
+	color:#fff;
+}
+.bg15 a
+{
+	text-decoration:none;
+}
+.bg15 a h5:hover
+{
+	color:#B11017;
+}
